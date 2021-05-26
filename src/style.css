@@ -80,10 +80,11 @@ body {
     /* background-color: #3D3F40; */
     display: grid;
     grid-template-columns: 10% auto auto 10%;
-    grid-template-rows: 100px 10px 400px 400px;
+    grid-template-rows: 100px 10px auto auto auto;
     grid-gap: 1em;
     position: relative;
     color: #010101;
+    padding-bottom: 10em;
 }
 
 .work-1 {
@@ -95,7 +96,6 @@ body {
     justify-content: right;
     font-family: "Lato";
     line-height: 25px;
-
 }
 
 .work-2 {
@@ -103,6 +103,17 @@ body {
     grid-row-start: 4;
     display: flex;
     justify-content: left;
+    font-family: "Lato";
+    line-height: 25px;
+}
+
+.work-3 {
+    padding-top: 4em;;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    display: flex;
+    justify-content: right;
     font-family: "Lato";
     line-height: 25px;
 }
@@ -200,7 +211,7 @@ body {
     font-family: "Lato";
 }
 
-.technologies {
+.technologies-title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -210,6 +221,8 @@ body {
     grid-row-start: 3;
     padding-top: 20px;
     font-family: "Oswald";
+    font-size: larger;
+    font-weight: 600;
 }
 
 .tech-grid {
