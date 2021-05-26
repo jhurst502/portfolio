@@ -15,10 +15,15 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/charmonman": "^4.3.0",
+    "@fontsource/lato": "^4.3.0",
+    "@fontsource/oswald": "^4.3.0",
     "gatsby": "^3.4.1",
+    "gatsby-plugin-react-svg": "^3.0.1",
     "gatsby-plugin-sass": "^4.5.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-scroll": "^1.8.2",
     "sass": "^1.34.0"
   }
 }
