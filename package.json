@@ -17,7 +17,10 @@
   "dependencies": {
     "@fontsource/charmonman": "^4.3.0",
     "@fontsource/lato": "^4.3.0",
+    "@fontsource/montserrat": "^4.4.0",
+    "@fontsource/open-sans": "^4.4.0",
     "@fontsource/oswald": "^4.3.0",
+    "@fontsource/roboto": "^4.4.0",
     "file-saver": "^2.0.5",
     "gatsby": "^3.4.1",
     "gatsby-plugin-react-helmet": "^4.6.0",

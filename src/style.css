@@ -37,7 +37,6 @@ body {
 }
 
 .about {
-    padding-top: 2em;
     padding-bottom: 10em;
     margin-top: 0;
     background-color: #1a4152;
@@ -48,27 +47,33 @@ body {
 }
 
 .about-text {
+    padding-top: 4em;
     z-index: 2;
     grid-column-start: 2;
     grid-row-start: 2;
     display: flex;
     justify-content: left;
-    font-family: "Lato";
-    line-height: 25px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 150%;
 }
 
 .about-title {
     z-index: 2;
+    grid-row-start: 2;
     grid-column-start: 2;
-    padding-top: 20px;
-    font-family: "Oswald";
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 30px;
 }
 
 .work-title {
     justify-self: right;
     padding-top: 20px;
     padding-bottom: 40px;
-    font-family: "Oswald";
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 30px;
     grid-row-start: 2;
     grid-column-start: 3;
     z-index: 2;
@@ -93,8 +98,9 @@ body {
     grid-row-start: 3;
     display: flex;
     justify-content: right;
-    font-family: "Lato";
-    line-height: 25px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 150%;
 }
 
 .work-2 {
@@ -102,8 +108,9 @@ body {
     grid-row-start: 4;
     display: flex;
     justify-content: left;
-    font-family: "Lato";
-    line-height: 25px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 150%;
 }
 
 .work-3 {
@@ -113,8 +120,9 @@ body {
     grid-row-start: 5;
     display: flex;
     justify-content: right;
-    font-family: "Lato";
-    line-height: 25px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 150%;
 }
 
 .contact {
@@ -133,7 +141,7 @@ body {
     justify-self: center;
     grid-row-start: 2;
     grid-column-start: 2;
-    font-family: "Oswald";
+    font-family: "Montserrat";
 }
 
 .contact-text {
@@ -146,9 +154,6 @@ body {
 }
 
 .justin {
-    /* display: flex;
-    align-items: flex-start;
-    justify-content: center; */
     position: absolute;
     top: auto;
     font-family: "Charmonman";
@@ -211,11 +216,6 @@ body {
 }
 
 .technologies-title {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    /* position: absolute;
-    bottom: 15em; */
     padding-bottom: 3em;
     justify-self: center;
     align-self: center;
@@ -223,7 +223,7 @@ body {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 4;
-    font-family: "Oswald";
+    font-family: "Montserrat";
     font-size: larger;
     font-weight: 600;
 }
@@ -280,7 +280,7 @@ body {
     justify-self: center;
     grid-column-start: 3;
     grid-row-start: 2;
-    font-family: "Lato";
+    font-family: "Montserrat";
     font-weight: 200;
     color: #fffefd;
 }

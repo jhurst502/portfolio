@@ -9,6 +9,10 @@ import Layout from '../components/Layout';
 import "@fontsource/lato";
 import "@fontsource/oswald";
 import "@fontsource/charmonman";
+import "@fontsource/open-sans";
+import "@fontsource/roboto";
+import "@fontsource/montserrat";
+
 
 
 const IndexPage = () => {
