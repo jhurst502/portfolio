@@ -101,7 +101,7 @@ body {
     padding-bottom: 10em;
     background-color: #1a4152;
     display: grid;
-    grid-template-columns: 10% 50% auto 10%;
+    grid-template-columns: 10% 40% 40% 10%;
     grid-template-rows: 80px auto 380px 5em 15em;
     color: #fffefd;
 }
@@ -149,7 +149,7 @@ body {
     grid-column-end: 4;
     display: grid;
     grid-template-rows: 5em 1em;
-    grid-template-columns: 7em 7em 7em 7em 7em 7em 7em 7em 7em 7em 7em 7em 7em;
+    grid-template-columns: 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw;
 }
 
 .tech-logo {
