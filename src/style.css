@@ -38,7 +38,7 @@ body {
 }
 
 /* Home Component */
-@media screen and (min-width: 0px) {
+/* @media screen and (min-width: 0px) {
     .home {
         max-height: 500px;
     }
@@ -54,16 +54,16 @@ body {
     .home {
         max-height: 1500px;
     }
-}
+} */
 .home {
     margin: 0;
-    /* background-color: #ffff; */
     background: rgb(255,255,255); /* Gradient background fixed thin white line under mountain svg */
     background: linear-gradient(180deg, rgba(255,255,255,1) 87%, rgba(26,65,82,1) 100%);
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
     grid-template-rows: 25em 35em 25em;
     position: relative;
+    height: 55vmax;
 }
 
 .justin {
