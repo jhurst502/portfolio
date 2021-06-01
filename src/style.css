@@ -91,7 +91,7 @@ body {
     background-color: #1a4152;
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
-    grid-template-rows: 80px auto 380px 5em 15em;
+    grid-template-rows: 80px auto auto auto auto;
     grid-template-areas: ". . . . "
                          ". about resume .";
     color: #fffefd;
@@ -100,6 +100,7 @@ body {
 .about-text {
     padding-top: 4em;
     z-index: 2;
+    margin-bottom: 5em;
     /* grid-column-start: 2;
     grid-row-start: 2; */
     grid-area: about;
@@ -120,7 +121,7 @@ body {
 }
 
 .technologies-title {
-    padding-bottom: 3em;
+    margin-top: 10em;
     justify-self: center;
     align-self: center;
     z-index: 2;
@@ -190,6 +191,7 @@ body {
 
 
 .tech-subscript {
+    padding-bottom: 3em;
     font-family: "Montserrat";
     font-weight: 200;
     color: #fffefd;
@@ -278,8 +280,8 @@ body {
 
 .work-title {
     justify-self: right;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    /* padding-top: 20px;
+    padding-bottom: 40px; */
     font-family: "Montserrat";
     font-weight: 600;
     font-size: 30px;
