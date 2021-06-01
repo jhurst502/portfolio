@@ -18,12 +18,8 @@ li:hover {
 
 body {
     margin: 0px;
-    position: relative;
+    width: 100%;
 }
-
-html, body {
-    overflow-x: hidden;
-  }
 
 /* Nav Bar */
 .nav {
@@ -177,6 +173,10 @@ html, body {
                              ". about about . "
                              ". resume resume .";
     }
+
+    html, body {
+        overflow-x: hidden;
+      }
 }
 
 .tech-subscript-second {
