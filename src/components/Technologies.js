@@ -1,5 +1,4 @@
 import React from 'react';
-import { useSpring, animated, config } from 'react-spring';
 
 import LogoJS from '../../src/images/JavaScript.png';
 import LogoReact from '../../src/images/React.png';
@@ -83,19 +82,6 @@ const Technologies = () => {
                     <figcaption className="tech-subscript">TypeScript</figcaption>
                 </figure>
             </div> */}
-
-            {/* <h4 className="tech-subscript-second">React</h4>
-            <h4 className="tech-subscript">Angular</h4>
-            <h4 className="tech-subscript-second">HTML5</h4>
-            <h4 className="tech-subscript">CSS3</h4>
-            <h4 className="tech-subscript-second">Flask</h4>
-            <h4 className="tech-subscript">Git</h4>
-            <h4 className="tech-subscript-second">Python</h4>
-            <h4 className="tech-subscript">C++</h4>
-            <h4 className="tech-subscript-second">PostgreSQL</h4>
-            <h4 className="tech-subscript">MongoDB</h4>
-            <h4 className="tech-subscript-second">NodeJs</h4>
-            <h4 className="tech-subscript">TypeScript</h4> */}
         </div>
     );
 }
