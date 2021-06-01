@@ -182,6 +182,10 @@ body {
                              ". resume resume .";
     }
 
+    .avatar-image {
+        right: 1em;
+    }
+
 }
 
 
