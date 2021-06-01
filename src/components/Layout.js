@@ -1,5 +1,5 @@
 import React from 'react';
-import favicon from '../../public/static/favicon.ico';
+import favicon from '../../src/images/favicon.ico';
 import Helmet from 'react-helmet';
 
 const Layout = () => {
