@@ -348,6 +348,7 @@ body {
     border-radius: 5em;
     outline: none;
     border: none;
+    background-color: #fffefd;
 }
 
 .contact-title {
@@ -404,11 +405,11 @@ body {
 }
 
 .social-icon {
-    padding-inline: 1.3em;
+    padding: 0 1.3em 0 1.3em;
     height: 2em;
 }
 
 .social-github {
-    padding-inline: 1.3em;
+    padding: 0 1.3em 0 1.3em;
     height: 2.13em;
 }
