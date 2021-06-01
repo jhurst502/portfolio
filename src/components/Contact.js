@@ -12,7 +12,7 @@ const Contact = () => {
             <div>
                 <img className="contact-top" src={SVG}></img>
             </div>
-            <h2 className="contact-title">Get In Touch</h2>
+            <button className="contact-button"><h3 className="contact-title">Get In Touch</h3></button>
             <p className="contact-text">or connect with me on these platforms</p>
             <div className="social-container">
                 <a href="https://github.com/jhurst502" ><img className="social-github" src={LogoGitHub}/></a>
