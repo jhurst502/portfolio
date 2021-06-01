@@ -18,7 +18,12 @@ li:hover {
 
 body {
     margin: 0px;
+    position: relative;
 }
+
+html, body {
+    overflow-x: hidden;
+  }
 
 /* Nav Bar */
 .nav {
@@ -85,14 +90,17 @@ body {
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
     grid-template-rows: 80px auto 380px 5em 15em;
+    grid-template-areas: ". . . . "
+                         ". about resume .";
     color: #fffefd;
 }
 
 .about-text {
     padding-top: 4em;
     z-index: 2;
-    grid-column-start: 2;
-    grid-row-start: 2;
+    /* grid-column-start: 2;
+    grid-row-start: 2; */
+    grid-area: about;
     display: flex;
     justify-content: left;
     font-family: "Open Sans";
@@ -162,6 +170,12 @@ body {
         ". . logo-2 logo-2 . . "
         ". . logo-3 logo-3 . . "
         ". . logo-4 logo-4 . . ";
+    }
+
+    .about {
+        grid-template-areas: ". . . ."
+                             ". about about . "
+                             ". resume resume .";
     }
 }
 
@@ -233,8 +247,9 @@ body {
     justify-self: center;
     height: 8em;
     width: 8em;
-    grid-column-start: 3;
-    grid-row-start: 2;
+    /* grid-column-start: 3;
+    grid-row-start: 2; */
+    grid-area: resume;
     z-index: 2;
     cursor: pointer;
 }
@@ -243,8 +258,7 @@ body {
     padding-top: 9em;
     align-self: center;
     justify-self: center;
-    grid-column-start: 3;
-    grid-row-start: 2;
+    grid-area: resume;
     font-family: "Montserrat";
     font-weight: 200;
     color: #fffefd;
@@ -341,6 +355,7 @@ body {
     padding: 0 7em 0 7em;
     justify-self: center;
     align-self: center;
+    text-align: center;
     grid-row-start: 2;
     grid-column-start: 2;
     z-index: 2;
