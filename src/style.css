@@ -129,6 +129,7 @@ body {
 .tech-grid {
     justify-self: center;
     align-items: center;
+    align-content: center;
     grid-row-start: 5;
     grid-row-end: 5;
     grid-column-start: 2;
@@ -147,7 +148,8 @@ body {
     /* grid-area: logo-1; */
     max-height: 3vw;
     min-height: 2em;
-    align-self: flex-start;
+    align-self: center;
+    border: 0;
 }
 
 @media (max-width: 2100px) {
@@ -174,42 +176,28 @@ body {
                              ". resume resume .";
     }
 
-    html, body {
-        overflow-x: hidden;
-      }
 }
 
-.tech-subscript-second {
-    font-family: "Montserrat";
-    font-weight: 200;
-    color: #fffefd;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;  */
-    /* grid-area: sub-2; */
-    align-self: center;
-    justify-self: center;
-    text-align: center;
-}
 
 .tech-subscript {
-    /* grid-row-start: 2; */
     font-family: "Montserrat";
     font-weight: 200;
     color: #fffefd;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;  */
-    /* grid-area: sub-1; */
     font-size: small;
     align-self: center;
     justify-self: center;
     text-align: center;
-    
 }
 
 .centered {
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 5vw;
+    /* margin: 2vw; */
     /* grid-area: logo-1; */
 }
 

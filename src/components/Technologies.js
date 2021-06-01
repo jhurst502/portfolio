@@ -32,6 +32,8 @@ const Technologies = () => {
                     <img className="tech-logo" src={LogoAngular}></img>
                     <figcaption className="tech-subscript">Angular</figcaption>
                 </figure>
+            </div>
+            <div className="figure-container-2">
                 <figure className="centered">
                     <img className="tech-logo" src={LogoHTML}></img>
                     <figcaption className="tech-subscript">HTML5</figcaption>
@@ -40,18 +42,16 @@ const Technologies = () => {
                     <img className="tech-logo" src={LogoCSS}></img>
                     <figcaption className="tech-subscript">CSS3</figcaption>
                 </figure>
-            </div>
-            <div className="figure-container-2">
                 <figure className="centered">
                     <img className="tech-logo" src={LogoFlask}></img>
                     <figcaption className="tech-subscript">Flask</figcaption>
                 </figure>
+            </div>
+            <div className="figure-container-3">
                 <figure className="centered">
                     <img className="tech-logo" src={LogoNode}></img>
                     <figcaption className="tech-subscript">NodeJs</figcaption>
                 </figure>
-            </div>
-            <div className="figure-container-3">
                 <figure className="centered">
                     <img className="tech-logo" src={LogoPython}></img>
                     <figcaption className="tech-subscript">Python</figcaption>
