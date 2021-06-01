@@ -1,23 +1,10 @@
 import React, { useEffect } from 'react';
-import TestSVG from '../../src/images/Test.svg';
-import LogoJS from '../../src/images/JavaScript.png';
-import LogoReact from '../../src/images/React.png';
-import LogoAngular from '../../src/images/angular.png';
-import LogoFlask from '../../src/images/Flask.png';
-import LogoGit from '../../src/images/Git.png';
-import LogoHTML from '../../src/images/HTML5.png';
-import LogoCSS from '../../src/images/CSS3.png';
-import LogoPython from '../../src/images/Python.png';
-import LogoCPP from '../../src/images/CPlusPlus.png';
-import LogoPostgres from '../../src/images/PostgreSQL.png';
-import LogoMongo from '../../src/images/MongoDB.png';
-import LogoNode from '../../src/images/NodeJs.png';
-import LogoTypeScript from '../../src/images/Typescript.png';
 
 import ResumeIcon from '../../src/images/Resume.json';
 import lottie from 'lottie-web';
 
 import { saveAs } from 'file-saver';
+import Technologies from './Technologies';
 
 // const oReq = new XMLHttpRequest();
 
@@ -72,8 +59,6 @@ const About = () => {
         }
     }
 
-    console.log(TestSVG);
-
     return (
         <div className="about" id="about">
             <h2 className="about-title">About</h2>
@@ -83,62 +68,7 @@ const About = () => {
             <h4 className='resume-subscript'>Download my resume</h4>
 
             <h3 className="technologies-title">Technologies I have worked with</h3>
-            <div className="tech-grid">
-                <div className="centered">
-                    <img className="tech-logo" src={LogoJS} style={{ gridColumnStart: 1 }}></img>
-                </div>
-                <div className="centered">
-                    <img className="tech-logo" src={LogoReact} style={{ gridColumnStart: 2 }}></img>
-                </div>
-                <div className="centered">
-                    <img className="tech-logo" src={LogoAngular} style={{ gridColumnStart: 3 }}></img>
-                </div>
-                <div className="centered">
-                    <img className="tech-logo" src={LogoHTML} style={{ gridColumnStart: 4 }}></img>
-                </div>
-                <div className="centered">
-                    <img className="tech-logo" src={LogoCSS} style={{ gridColumnStart: 5 }}></img>
-                </div>
-                <div className="centered">
-                    <img className="tech-logo" src={LogoFlask} style={{ gridColumnStart: 6 }}></img>
-                </div>
-                <div className="centered">
-                    <img className="tech-logo" src={LogoGit} style={{ gridColumnStart: 7 }}></img>
-                </div>
-                <div className="centered">
-                    <img className="tech-logo" src={LogoPython} style={{ gridColumnStart: 8 }}></img>
-                </div>
-                <div className="centered">
-                    <img className="tech-logo" src={LogoCPP} style={{ gridColumnStart: 9 }}></img>
-                </div>
-                <div className="centered">
-                    <img className="tech-logo" src={LogoPostgres} style={{ gridColumnStart: 10 }}></img>
-                </div>
-                <div className="centered">
-                    <img className="tech-logo" src={LogoMongo} style={{ gridColumnStart: 11 }}></img>
-                </div>
-                <div className="centered">
-                    <img className="tech-logo" src={LogoNode} style={{ gridColumnStart: 12 }}></img>
-                </div>
-                <div className="centered">
-                    <img className="tech-logo" src={LogoTypeScript} style={{ gridColumnStart: 13 }}></img>
-                </div>
-
-
-                <h4 className="tech-subscript" style={{ gridColumnStart: 1 }}>JavaScript</h4>
-                <h4 className="tech-subscript" style={{ gridColumnStart: 2 }}>React</h4>
-                <h4 className="tech-subscript" style={{ gridColumnStart: 3 }}>Angular</h4>
-                <h4 className="tech-subscript" style={{ gridColumnStart: 4 }}>HTML5</h4>
-                <h4 className="tech-subscript" style={{ gridColumnStart: 5 }}>CSS3</h4>
-                <h4 className="tech-subscript" style={{ gridColumnStart: 6 }}>Flask</h4>
-                <h4 className="tech-subscript" style={{ gridColumnStart: 7 }}>Git</h4>
-                <h4 className="tech-subscript" style={{ gridColumnStart: 8 }}>Python</h4>
-                <h4 className="tech-subscript" style={{ gridColumnStart: 9 }}>C++</h4>
-                <h4 className="tech-subscript" style={{ gridColumnStart: 10 }}>PostgreSQL</h4>
-                <h4 className="tech-subscript" style={{ gridColumnStart: 11 }}>MongoDB</h4>
-                <h4 className="tech-subscript" style={{ gridColumnStart: 12 }}>NodeJs</h4>
-                <h4 className="tech-subscript" style={{ gridColumnStart: 13 }}>TypeScript</h4>
-            </div>
+            <Technologies></Technologies>
         </div>
     )
 }
