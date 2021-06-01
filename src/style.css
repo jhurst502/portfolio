@@ -44,27 +44,40 @@ body {
     background: linear-gradient(180deg, rgba(255,255,255,1) 87%, rgba(26,65,82,1) 100%);
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
-    grid-template-rows: 25em 35em 25em;
+    grid-template-rows: 15vw auto 35em 25em;
+    grid-template-areas: ". . . ."
+                         ". name name .";
     position: relative;
     height: 55vmax;
 }
 
 .justin {
-    position: absolute;
-    top: 28%;
-    left: 10%;
+    /* position: absolute; */
+    grid-area: name;
+    /* top: 28%;
+    left: 10%; */
     font-family: "Charmonman";
     font-size: 500%;
     font-weight: 700;
+    margin: 0;
     color:#002839;
+    line-height: 1em;
+}
+
+.container-text {
+    color: #335665;
+    display: flex;
+    flex-direction: column;
+    grid-area: name;
 }
 
 .subtext {
     /* grid-row-start: 2;
     grid-column-start: 2; */
-    position: absolute;
+    /* position: absolute;
     top: 28%;
-    left: 10%;
+    left: 10%; */
+    grid-area: name;
     font-family: "Montserrat";
 }
 
@@ -369,13 +382,6 @@ body {
     font-weight: 300;
     font-size: 13px;
     align-self: flex-end;
-}
-
-.container-text {
-    color: #335665;
-    display: flex;
-    grid-column-start: 2;
-    grid-row-start: 2;
 }
 
 .mountains {
