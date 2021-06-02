@@ -7,6 +7,7 @@ const Layout = () => {
     return (
         <div>
             <Helmet>
+                <title>Justin Hurst | Developer</title>
                 <link rel="icon" href={favicon} />
             </Helmet>
         </div>
