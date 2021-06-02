@@ -15,7 +15,7 @@ const Navigation = () => {
                 <ul>
                     <li><Link to="home" smooth={true} spy={true}>Home</Link></li>
                     <li><Link to="about" smooth={true} spy={true}>About</Link></li>
-                    <li><Link to="work" smooth={true} spy={true}>Work</Link></li>
+                    <li><Link to="work" smooth={true} spy={true} offset={95}>Work</Link></li>
                     <li><Link to="contact" smooth={true} spy={true}>Contact</Link></li>
                 </ul>
             </nav>
