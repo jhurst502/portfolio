@@ -243,8 +243,7 @@ body {
     border: 0;
     padding: 0;
     background-color: #1a4152;
-    align-self: center;
-    justify-self: center;
+    
     height: 8em;
     width: 8em;
     /* grid-column-start: 3;
@@ -252,6 +251,12 @@ body {
     grid-area: resume;
     z-index: 2;
     cursor: pointer;
+}
+
+.resume-link {
+    align-self: center;
+    justify-self: center;
+    grid-area: resume;
 }
 
 .resume-subscript {

@@ -64,7 +64,9 @@ const About = () => {
             <h2 className="about-title">About</h2>
             <p className="about-text">I am a developer. I love creating things. I wanted to learn programming the moment I realized the impact well designed applications can have in solving real world problems. What interests me the most about development is being able to create an application seemingly from nothing that provides value to people. I am currently finishing the last year of my Bachelor of Science in Computer Science at Indiana University Southeast. Aside from school, I enjoy building full stack web applications that use React for the frontend. I like to think of different technologies and programming languages as tools, and while I have more experience working with some than others, I always welcome the opportunity to learn new skills that enable me to build better applications. For more information about my professional experience click the CV icon to download my resume. For information about the projects I have worked on check out the Work section below. </p>
 
-            <button className='resume-icon' ref={CV} onClick={handleClick} />
+            <a href='JustinHurstResumeWeb.pdf' target="_blank" className='resume-link' download>
+                <button className='resume-icon' ref={CV} onClick={handleClick} />
+            </a>
             <h4 className='resume-subscript'>Download my resume</h4>
 
             <h3 className="technologies-title">Technologies I have worked with</h3>
