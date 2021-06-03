@@ -34,6 +34,7 @@ export default function ContactFormActual() {
         <div>
             <h3 style={{ paddingTop: 20 }}>Have questions? Want a quote? Send me a message! </h3>
             <form
+                netlify
                 name="contact"
                 method="POST"
                 data-netlify="true"
