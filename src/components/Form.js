@@ -63,7 +63,7 @@ const ContactFormActual = () => {
                     </label>
                 </div>
                 <div style={{ paddingTop: 45, paddingBottom: 20, paddingLeft: 35, paddingRight: 20 }}>
-                    <button className="send-button" type="submit">Send</button>
+                    <input className="send-button" type="submit" value="Send" />
                 </div>
             </form>
     );
