@@ -15,6 +15,7 @@ import "@fontsource/montserrat";
 
 
 
+
 const IndexPage = () => {
   return (
     <div>
@@ -24,7 +25,6 @@ const IndexPage = () => {
         <About></About>
         <Work></Work>
         <Contact></Contact>
-      
     </div>
   )
 }
