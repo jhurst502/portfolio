@@ -35,15 +35,14 @@ export default function ContactFormActual() {
             <h3 style={{ paddingTop: 20 }}>Have questions? Want a quote? Send me a message! </h3>
             <form
                 name="contact"
-                method="post"
-                action="/thanks/"
+                method="POST"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={handleSubmit}
             >
 
                 {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                <input type="hidden" name="form-name" value="contact v1" />
+                <input type="hidden" name="form-name" value="contact" />
 
                 <div style={{ paddingTop: 10, paddingBottom: 10 }}>
                     <label >
