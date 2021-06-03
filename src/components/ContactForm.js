@@ -24,8 +24,10 @@ const ContactForm = ({ open, onClose }) => {
                     </button>
                     <h3 style={{paddingTop:20}}>Have questions? Want a quote? Send me a message! </h3>
                     <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                        
                         {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                        <input type="hidden" name="form-name" value="contact" />
+                        <input type="hidden" name="contact" value="contact" />
+                        
                         <div style={{ paddingTop: 10, paddingBottom: 10 }}>
                             <label >
                                 Name
@@ -35,7 +37,7 @@ const ContactForm = ({ open, onClose }) => {
                         <div style={{ paddingTop: 10, paddingBottom: 10 }}>
                             <label >
                                 Email
-                            <input type="text" name="email" className="email-input" />
+                            <input type="email" name="email" className="email-input" />
                             </label>
                         </div>
                         <div style={{ paddingTop: 10, paddingBottom: 10, display: 'flex', flexDirection: 'column' }}>
