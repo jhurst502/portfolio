@@ -23,7 +23,7 @@ const ContactForm = ({ open, onClose }) => {
                         </svg>
                     </button>
                     <h3 style={{paddingTop:20}}>Have questions? Want a quote? Send me a message! </h3>
-                    <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <form name="contact" method="POST" data-netlify="true">
                         
                         {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                         <input type="hidden" name="contact" value="contact" />
