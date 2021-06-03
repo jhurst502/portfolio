@@ -23,6 +23,7 @@ const ContactForm = ({ open, onClose }) => {
                                 stroke-width="2" />
                         </svg>
                     </button>
+                    <h3 style={{ paddingTop: 20 }}>Have questions? Want a quote? Send me a message! </h3>
                     <ContactFormActual></ContactFormActual>
                 </div>
             </div>

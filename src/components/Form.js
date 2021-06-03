@@ -31,12 +31,9 @@ export default function ContactFormActual() {
 
 
     return (
-        <div>
-            <h3 style={{ paddingTop: 20 }}>Have questions? Want a quote? Send me a message! </h3>
             <form
-                netlify
                 name="contact"
-                method="POST"
+                method="post"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={handleSubmit}
@@ -67,6 +64,5 @@ export default function ContactFormActual() {
                     <button className="send-button" type="submit">Send</button>
                 </div>
             </form>
-        </div>
-    )
+    );
 }
