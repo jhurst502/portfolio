@@ -23,10 +23,10 @@ const ContactForm = ({ open, onClose }) => {
                         </svg>
                     </button>
                     <h3 style={{paddingTop:20}}>Have questions? Want a quote? Send me a message! </h3>
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form name="contact v1" method="post" data-netlify="true" onSubmit="submit">
                         
                         {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                        <input type="hidden" name="contact" value="contact" />
+                        <input type="hidden" name="form-name" value="contact v1" />
                         
                         <div style={{ paddingTop: 10, paddingBottom: 10 }}>
                             <label >
