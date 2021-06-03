@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import ContactFormActual from './Form';
 
 const ContactForm = ({ open, onClose }) => {
 
@@ -22,34 +23,7 @@ const ContactForm = ({ open, onClose }) => {
                                 stroke-width="2" />
                         </svg>
                     </button>
-                    <h3 style={{paddingTop:20}}>Have questions? Want a quote? Send me a message! </h3>
-                    <form name="contact v1" method="post" data-netlify="true" onSubmit="submit">
-                        
-                        {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                        <input type="hidden" name="form-name" value="contact v1" />
-                        
-                        <div style={{ paddingTop: 10, paddingBottom: 10 }}>
-                            <label >
-                                Name
-                            <input type="text" name="name" className="name-input" />
-                            </label>
-                        </div>
-                        <div style={{ paddingTop: 10, paddingBottom: 10 }}>
-                            <label >
-                                Email
-                            <input type="email" name="email" className="email-input" />
-                            </label>
-                        </div>
-                        <div style={{ paddingTop: 10, paddingBottom: 10, display: 'flex', flexDirection: 'column' }}>
-                            <label style={{ justifySelf: 'flex-start' }}>
-                                Message
-                            <textarea type="textarea" name="message" className="message-input" />
-                            </label>
-                        </div>
-                        <div style={{ paddingTop: 45, paddingBottom: 20, paddingLeft: 35, paddingRight:20}}>
-                        <button className="send-button" type="submit">Send</button>
-                        </div>
-                    </form>
+                    <ContactFormActual></ContactFormActual>
                 </div>
             </div>
         </>,
