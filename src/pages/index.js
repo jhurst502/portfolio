@@ -26,7 +26,7 @@ const IndexPage = () => {
         <About></About>
         <Work></Work>
         <Contact></Contact>
-        <Form></Form>
+        <Form hidden={true}></Form>
     </div>
   )
 }
