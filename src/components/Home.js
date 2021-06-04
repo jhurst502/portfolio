@@ -13,9 +13,9 @@ const Home = () => {
                 <h1 className="justin">Justin Hurst</h1>
             </div>
             <div className="container-avatar">
-                <img src={Avatar} className="avatar-image"></img>
+                <img src={Avatar} className="avatar-image" alt=""></img>
             </div>
-            <img src={MountainSVG} className="mountains"></img>
+            <img src={MountainSVG} className="mountains" alt=""></img>
         </div>
 
     )

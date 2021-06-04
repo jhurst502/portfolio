@@ -7,12 +7,12 @@ const Work = () => {
     return (
         <div className="work" id="work">
             <div>
-                <img className="mountains-bottom" src={MountainSVG}></img>
+                <img className="mountains-bottom" src={MountainSVG} alt=""></img>
             </div>
             <h2 className="work-title">Work</h2>
             <h3 className="work-project-title" style={{gridRowStart:3, gridColumnStart:3}}>Elevation Tracking (Get High Elevation)</h3>
             <a href="https://www.gethighelevation.com/" target="_blank" style={{gridRowStart:4, gridColumnStart:3}}>
-                <img className="work-image" src={GetHighPhoto}></img>
+                <img className="work-image" src={GetHighPhoto} alt="get-high-elvation screenshot"></img>
             </a>
             <p className="work-1">Get High Elevation is a full stack web application designed to assist in finding the high points of local areas. It works by calculating the 10 highest peaks within a 30 mile radius of a given zip code. I created this application using React and Tailwind CSS with a Flask Restful API for the backend. Each elevation is calculated using my own instance of the Open Topo Data API and displayed on the map using Mapbox GL. Since each calculation to find the highpoints can take a while, I utilized a MongoDB database to store points once they are computed. This helps to cut down on wait times. I deployed Get High Elevation using Nginx on a Digital Ocean Droplet server. </p>
             

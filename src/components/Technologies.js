@@ -21,58 +21,58 @@ const Technologies = () => {
 
             <div className="figure-container">
                 <figure className="centered">
-                    <img className="tech-logo" src={LogoJS}></img>
+                    <img className="tech-logo" src={LogoJS} alt="JavaScript"></img>
                     <figcaption className="tech-subscript">JavaScript</figcaption>
                 </figure>
                 <figure className="centered">
-                    <img className="tech-logo" src={LogoReact}></img>
+                    <img className="tech-logo" src={LogoReact} alt="React"></img>
                     <figcaption className="tech-subscript">React</figcaption>
                 </figure>
                 <figure className="centered">
-                    <img className="tech-logo" src={LogoAngular}></img>
+                    <img className="tech-logo" src={LogoAngular} alt="Angular"></img>
                     <figcaption className="tech-subscript">Angular</figcaption>
                 </figure>
             </div>
             <div className="figure-container-2">
                 <figure className="centered">
-                    <img className="tech-logo" src={LogoHTML}></img>
+                    <img className="tech-logo" src={LogoHTML} alt="HTML5"></img>
                     <figcaption className="tech-subscript">HTML5</figcaption>
                 </figure>
                 <figure className="centered">
-                    <img className="tech-logo" src={LogoCSS}></img>
+                    <img className="tech-logo" src={LogoCSS} alt="CSS3"></img>
                     <figcaption className="tech-subscript">CSS3</figcaption>
                 </figure>
                 <figure className="centered">
-                    <img className="tech-logo" src={LogoFlask}></img>
+                    <img className="tech-logo" src={LogoFlask} alt="Flask"></img>
                     <figcaption className="tech-subscript">Flask</figcaption>
                 </figure>
             </div>
             <div className="figure-container-3">
                 <figure className="centered">
-                    <img className="tech-logo" src={LogoNode}></img>
+                    <img className="tech-logo" src={LogoNode}  alt="NodeJs"></img>
                     <figcaption className="tech-subscript">NodeJs</figcaption>
                 </figure>
                 <figure className="centered">
-                    <img className="tech-logo" src={LogoPython}></img>
+                    <img className="tech-logo" src={LogoPython} alt="Python"></img>
                     <figcaption className="tech-subscript">Python</figcaption>
                 </figure>
 
                 <figure className="centered">
-                    <img className="tech-logo" src={LogoCPP}></img>
+                    <img className="tech-logo" src={LogoCPP} alt="C++"></img>
                     <figcaption className="tech-subscript">C++</figcaption>
                 </figure>
             </div>
             <div className="figure-container-4">
                 <figure className="centered">
-                    <img className="tech-logo" src={LogoPostgres}></img>
+                    <img className="tech-logo" src={LogoPostgres} alt="PostgreSQL"></img>
                     <figcaption className="tech-subscript">PostgreSQL</figcaption>
                 </figure>
                 <figure className="centered">
-                    <img className="tech-logo" src={LogoMongo}></img>
+                    <img className="tech-logo" src={LogoMongo} alt="MongoDB"></img>
                     <figcaption className="tech-subscript">MongoDB</figcaption>
                 </figure>
                 <figure className="centered">
-                    <img className="tech-logo" src={LogoGit}></img>
+                    <img className="tech-logo" src={LogoGit} alt="Git"></img>
                     <figcaption className="tech-subscript">Git</figcaption>
                 </figure>
             </div>
