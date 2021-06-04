@@ -166,6 +166,14 @@ body {
         ". logo-2 logo-2 logo-3 logo-3 . "
         " . logo-4 logo-4 logo-4 logo-4 .";
     }
+
+    
+}
+
+@media (min-width: 1000px) {
+    .contact-form {
+        width: 40vw;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -185,6 +193,10 @@ body {
 
     .avatar-image {
         right: 1em;
+    }
+
+    .contact-form {
+        width: 60vw;
     }
 
 }
@@ -430,7 +442,7 @@ body {
 /* Contact Form */
 .contact-form {
     justify-items: stretch;
-    width: 40vw;
+    max-width: 45em;
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -503,6 +515,7 @@ body {
     height: 2em;
     width: 2em;
     cursor: pointer;
+    z-index: 200;
 }
 
 .send-button {
