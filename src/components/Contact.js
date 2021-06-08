@@ -4,7 +4,7 @@ import SVG from '../../src/images/ContactTop.svg';
 import LogoGitHub from '../../src/images/GitHub.svg';
 import LogoLinkedIn from '../../src/images/LinkedIn.svg';
 import LogoTwitter from '../../src/images/Twitter.svg';
-import ContactForm from './ContactForm';
+import ContactFormPortal from './ContactFormPortal';
 
 const Contact = () => {
     
@@ -23,7 +23,7 @@ const Contact = () => {
                 <a href="https://twitter.com/jhurst502" ><img className="social-icon" src={LogoTwitter}/></a>
             </div>
 
-            <ContactForm open={isOpen} onClose={() => setIsOpen(false)}></ContactForm>
+            <ContactFormPortal open={isOpen} onClose={() => setIsOpen(false)}></ContactFormPortal>
         </div>
     )
 }

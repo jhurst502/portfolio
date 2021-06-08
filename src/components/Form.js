@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ContactFormActual = ({hidden}) => {
+const ContactForm = ({hidden}) => {
 
     if (hidden === true) {
         return (
@@ -77,4 +77,4 @@ const ContactFormActual = ({hidden}) => {
     );
 }
 
-export default ContactFormActual;
+export default ContactForm;

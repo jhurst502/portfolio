@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import ContactFormActual from './Form';
+import ContactForm from './Form';
 import close from '../images/close.svg';
 
-const ContactForm = ({ open, onClose }) => {
+const ContactFormPortal = ({ open, onClose }) => {
 
     if (!open) return null;
 
@@ -18,7 +18,7 @@ const ContactForm = ({ open, onClose }) => {
                     </div>
                     
                     <h3 style={{ paddingTop: 20 }}>Have questions? Want a quote? Send me a message! </h3>
-                    <ContactFormActual></ContactFormActual>
+                    <ContactForm />
                 </div>
             </div>
         </>,
@@ -26,4 +26,4 @@ const ContactForm = ({ open, onClose }) => {
     );
 }
 
-export default ContactForm;
+export default ContactFormPortal;
