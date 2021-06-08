@@ -13,7 +13,6 @@ import "@fontsource/charmonman";
 import "@fontsource/open-sans";
 import "@fontsource/roboto";
 import "@fontsource/montserrat";
-import NavToggle from "../components/NavToggle";
 
 
 
@@ -27,7 +26,6 @@ const IndexPage = () => {
         <About></About>
         <Work></Work>
         <Contact></Contact>
-        <NavToggle></NavToggle>
         <Form hidden={true}></Form>
     </div>
   )

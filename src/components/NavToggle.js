@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import toggleIcon from '../images/NavToggleButton.json';
 import lottie from 'lottie-web';
 
-const NavToggle = () => {
+const NavToggle = ({opened, setOpened}) => {
 
     let toggle = React.createRef();
 
-    const [opened, setOpened] = useState(false);
+    
 
     useEffect(() => {
         const toggleButton = lottie.loadAnimation({
