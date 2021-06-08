@@ -4,10 +4,6 @@ import * as Scroll from 'react-scroll';
 
 const Navigation = () => {
     let Link = Scroll.Link;
-    let Element = Scroll.Element;
-    let Events = Scroll.Events;
-    let scroll = Scroll.animateScroll;
-    let scrollSpy = Scroll.scrollSpy;
 
     return (
         <div className="container-nav">
