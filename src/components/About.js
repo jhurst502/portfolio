@@ -6,36 +6,6 @@ import lottie from 'lottie-web';
 import { saveAs } from 'file-saver';
 import Technologies from './Technologies';
 
-// const oReq = new XMLHttpRequest();
-
-// // TODO Change this to download from Node server
-// // The Endpoint of your server 
-// const URLToPDF = "https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf";
-
-// // Configure XMLHttpRequest
-// oReq.open("GET", URLToPDF, true);
-
-// // Important to use the blob response type
-// oReq.responseType = "blob";
-
-// // When the file request finishes
-// // Is up to you, the configuration for error events etc.
-// oReq.onload = function () {
-//     // Once the file is downloaded, open a new window with the PDF
-//     // Remember to allow the POP-UPS in your browser
-//     const file = new Blob([oReq.response], {
-//         type: 'application/pdf'
-//     });
-
-//     // Generate file download directly in the browser !
-//     saveAs(file, "mypdffilename.pdf");
-// };
-
-
-
-
-// TODO fetch request to server with resume and download with file-saver
-
 const About = () => {
     let CV = React.createRef();
 
@@ -52,8 +22,6 @@ const About = () => {
     let clicked = false;
     function handleClick() {
         if (clicked === false) {
-            // oReq.send();
-            //saveAs(new Blob([Resume], {type: 'application/pdf'}));
             lottie.play();
             clicked = true;
         }
