@@ -29,7 +29,6 @@ body {
 }
 
 .container-nav {
-    display: flex;
     justify-content: flex-start;
     background-color: #002c3f;
     padding: 0.5em 0 0.5em 0;
@@ -42,17 +41,51 @@ body {
 .toggle-button {
     height: 4em;
     width: 4em;
-    margin-right: 1em;
+    margin: 0;
     padding: 0;
     outline: none;
     background: none;
     border: none;
     cursor: pointer;
     z-index: 1000;
-    display: none;
-    
+    position: relative;
+    right: 0;
 }
 
+.navigation-mobile {
+    margin: 0%;
+    font-family: "Montserrat";
+    color: #d8811e;
+    justify-content: center;
+    align-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+}
+
+.mobile-container {
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    background-color: #002c3f;
+    opacity: 90%;
+}
+
+.nav-mobile {
+    justify-content: center;
+    width: 40vw;
+    height: 100vh;
+    position: sticky;
+}
+
+@media only screen and (min-width: 601px) {
+    .navigation-mobile {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .toggle-button {
@@ -60,26 +93,13 @@ body {
     }    
 
     .container-nav {
-        justify-content: flex-end;
-        padding: 0;
-        margin: 0;
+        display: none;
     }
 
-    .nav {
-        align-content: flex-start;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-content: flex-start;
-        top: 3em;
-        right: 0; 
-        background-color: #002839;
-        width: 40vw;
-        height: 100vh;
-    }
 
     ul {
         flex-direction: column;
+        margin-left: 10%;
     }
 
     li {
