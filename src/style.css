@@ -66,17 +66,16 @@ body {
     }
 
     .nav {
-        margin-top: 0.25em;
-       align-content: flex-start;
-       position: absolute;
-       display: flex;
-       justify-content: center;
-       align-content: flex-start;
-       top: 3em;
-       right: 0; 
-       background-color: #002839;
-       width: 40vw;
-       height: 100vh;
+        align-content: flex-start;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-content: flex-start;
+        top: 3em;
+        right: 0; 
+        background-color: #002839;
+        width: 40vw;
+        height: 100vh;
     }
 
     ul {
