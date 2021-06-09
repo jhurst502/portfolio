@@ -60,7 +60,7 @@ body {
     align-content: center;
     position: sticky;
     top: 0;
-    z-index: 2000;
+    z-index: 1000;
 }
 
 .mobile-container {
@@ -538,7 +538,7 @@ body {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, .7);
-    z-index: 100;
+    z-index: 2000;
 }
 
 .name-input {

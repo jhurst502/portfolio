@@ -40,10 +40,10 @@ const MobileNavigation = () => {
 
                 {opened && <nav className="nav-mobile">
                     <ul>
-                        <li><Link to="home" smooth={true} spy={true}>Home</Link></li>
-                        <li><Link to="about" smooth={true} spy={true}>About</Link></li>
-                        <li><Link to="work" smooth={true} spy={true} offset={95}>Work</Link></li>
-                        <li><Link to="contact" smooth={true} spy={true}>Contact</Link></li>
+                        <li><Link to="home" smooth={true} spy={true} onClick={handleClick}>Home</Link></li>
+                        <li><Link to="about" smooth={true} spy={true} onClick={handleClick}>About</Link></li>
+                        <li><Link to="work" smooth={true} spy={true} offset={95} onClick={handleClick}>Work</Link></li>
+                        <li><Link to="contact" smooth={true} spy={true} onClick={handleClick}>Contact</Link></li>
                     </ul>
                 </nav>}
             </div>
