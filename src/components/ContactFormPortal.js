@@ -13,7 +13,7 @@ const ContactFormPortal = ({ open, onClose }) => {
                 <div className="contact-form">
                     <div style={{paddingLeft:'100%'}}>
                     <button onClick={onClose} className="close-button">
-                        <img src={close} className="close-button" alt="close window"/>
+                        <img src={close} className="close-button-img" alt="close window"/>
                     </button>
                     </div>
                     

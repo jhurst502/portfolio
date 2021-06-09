@@ -580,13 +580,18 @@ body {
 }
 
 .close-button {
+    margin: 0;
+    padding: 0;
     border: none;
     background-color: #1a4152;
     outline: none;
-    height: 1.5em;
-    width: 1.5em;
+    height: fit-content;
     cursor: pointer;
-    z-index: 200;
+    z-index: 2500;
+}
+
+.close-button-img {
+    height: 1.5em;
 }
 
 .send-button {
