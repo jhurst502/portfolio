@@ -428,7 +428,7 @@ body {
 
 /* Contact Component */
 .contact {
-    padding-bottom: 5%;
+    padding-bottom: 8%;
     margin-top: 0;
     background-color: #1a4152;
     display: grid;
@@ -439,9 +439,9 @@ body {
 }
 
 .contact-button {
-    height: 5em;
+    height: 3em;
     width: auto;
-    padding: 0 7em 0 7em;
+    padding: 0 4em;
     justify-self: center;
     align-self: center;
     text-align: center;
@@ -453,12 +453,13 @@ body {
     outline: none;
     border: none;
     background-color: #fffefd;
-}
-
-.contact-title {
     font-family: "Montserrat";
     font-weight: 600;
     font-size: 20px;
+}
+
+.contact-button:hover {
+    background-color: #e4e4e4;
 }
 
 .contact-text {
@@ -469,6 +470,7 @@ body {
     font-family: "Open Sans";
     font-weight: 300;
     font-size: 13px;
+    color: #bebebe;
     align-self: flex-end;
 }
 

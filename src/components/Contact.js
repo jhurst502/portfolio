@@ -15,8 +15,8 @@ const Contact = () => {
             <div>
                 <img className="contact-top" src={SVG}></img>
             </div>
-            <button className="contact-button" onClick={() => setIsOpen(true)}><h3 className="contact-title">Get In Touch</h3></button>
-            <p className="contact-text">or connect with me on these platforms</p>
+            <button className="contact-button" onClick={() => setIsOpen(true)}>Get In Touch</button>
+            <p className="contact-text">(or connect with me on these platforms)</p>
             <div className="social-container">
                 <a href="https://github.com/jhurst502" ><img className="social-github" src={LogoGitHub}/></a>
                 <a href="https://www.linkedin.com/in/justin-s-hurst/" ><img className="social-icon" src={LogoLinkedIn}/></a>
