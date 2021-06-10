@@ -428,7 +428,6 @@ body {
 
 /* Contact Component */
 .contact {
-    padding-bottom: 8%;
     margin-top: 0;
     background-color: #1a4152;
     display: grid;
@@ -499,7 +498,7 @@ body {
     grid-column-start: 2;
     grid-row-start: 4;
     justify-self: center;
-    align-self: flex-end;
+    align-self: center;
     z-index: 3;
 }
 
@@ -626,3 +625,14 @@ textarea {
     resize: none;
 }
 
+/* Footer */
+.footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #102731;
+    font-size: .9em;
+    font-family: "Montserrat";
+    color: #bebebe;
+}

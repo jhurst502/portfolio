@@ -6,6 +6,7 @@ import Contact from '../components/Contact';
 import Navigation from '../components/Navigation';
 import Layout from '../components/Layout';
 import Form from '../components/Form';
+import Footer from '../components/Footer';
 
 import "@fontsource/lato";
 import "@fontsource/oswald";
@@ -13,6 +14,7 @@ import "@fontsource/charmonman";
 import "@fontsource/open-sans";
 import "@fontsource/roboto";
 import "@fontsource/montserrat";
+
 
 
 
@@ -27,6 +29,7 @@ const IndexPage = () => {
         <Work></Work>
         <Contact></Contact>
         <Form hidden={true}></Form>
+        <Footer></Footer>
     </div>
   )
 }
