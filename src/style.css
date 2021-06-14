@@ -364,7 +364,7 @@ body {
     grid-gap: 1em;
     position: relative;
     color: #010101;
-    padding-bottom: 10em;
+    padding-bottom: 25vw;
 }
 
 .work-title {
@@ -432,7 +432,7 @@ body {
     background-color: #1a4152;
     display: grid;
     grid-template-columns: 10% auto 10%;
-    grid-template-rows: 100px 300px 50px 100px;
+    grid-template-rows: 0px 300px 50px 100px;
     color: #fffefd;
     z-index: 3;
 }
@@ -448,7 +448,7 @@ body {
     grid-column-start: 2;
     z-index: 2;
     cursor: pointer;
-    border-radius: 5em;
+    border-radius: 1.5em;
     outline: none;
     border: none;
     background-color: #fffefd;
@@ -492,6 +492,9 @@ body {
 .contact-top {
     grid-row-start: 1;
     position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -5%;
 }
 
 .social-container {

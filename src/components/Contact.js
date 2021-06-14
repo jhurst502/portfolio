@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import SVG from '../../src/images/ContactTop.svg';
 
 import LogoGitHub from '../../src/images/GitHub.svg';
 import LogoLinkedIn from '../../src/images/LinkedIn.svg';
@@ -12,9 +11,6 @@ const Contact = () => {
 
     return (
         <div className="contact" id="contact">
-            <div>
-                <img className="contact-top" src={SVG}></img>
-            </div>
             <button className="contact-button" onClick={() => setIsOpen(true)}>Get In Touch</button>
             <p className="contact-text">(or connect with me on these platforms)</p>
             <div className="social-container">
