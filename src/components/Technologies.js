@@ -13,27 +13,31 @@ import LogoPostgres from '../../src/images/PostgreSQL.png';
 import LogoMongo from '../../src/images/MongoDB.png';
 import LogoNode from '../../src/images/NodeJs.png';
 import LogoTypeScript from '../../src/images/Typescript.png';
+import LogoRedux from '../../src/images/Redux.png';
 
 const Technologies = () => {
 
     return (
         <div className="tech-grid">
-
             <div className="figure-container">
                 <figure className="centered">
                     <img className="tech-logo" src={LogoJS} alt="JavaScript"></img>
                     <figcaption className="tech-subscript">JavaScript</figcaption>
                 </figure>
                 <figure className="centered">
+                    <img className="tech-logo" src={LogoTypeScript}></img>
+                    <figcaption className="tech-subscript">TypeScript</figcaption>
+                </figure>
+                <figure className="centered">
                     <img className="tech-logo" src={LogoReact} alt="React"></img>
                     <figcaption className="tech-subscript">React</figcaption>
                 </figure>
+            </div>
+            <div className="figure-container-2">
                 <figure className="centered">
                     <img className="tech-logo" src={LogoAngular} alt="Angular"></img>
                     <figcaption className="tech-subscript">Angular</figcaption>
                 </figure>
-            </div>
-            <div className="figure-container-2">
                 <figure className="centered">
                     <img className="tech-logo" src={LogoHTML} alt="HTML5"></img>
                     <figcaption className="tech-subscript">HTML5</figcaption>
@@ -41,10 +45,6 @@ const Technologies = () => {
                 <figure className="centered">
                     <img className="tech-logo" src={LogoCSS} alt="CSS3"></img>
                     <figcaption className="tech-subscript">CSS3</figcaption>
-                </figure>
-                <figure className="centered">
-                    <img className="tech-logo" src={LogoFlask} alt="Flask"></img>
-                    <figcaption className="tech-subscript">Flask</figcaption>
                 </figure>
             </div>
             <div className="figure-container-3">
@@ -56,7 +56,6 @@ const Technologies = () => {
                     <img className="tech-logo" src={LogoPython} alt="Python"></img>
                     <figcaption className="tech-subscript">Python</figcaption>
                 </figure>
-
                 <figure className="centered">
                     <img className="tech-logo" src={LogoCPP} alt="C++"></img>
                     <figcaption className="tech-subscript">C++</figcaption>
@@ -76,12 +75,16 @@ const Technologies = () => {
                     <figcaption className="tech-subscript">Git</figcaption>
                 </figure>
             </div>
-            {/* <div className="figure-container-5">
+            <div className="figure-container-5">
                 <figure className="centered">
-                    <img className="tech-logo" src={LogoTypeScript}></img>
-                    <figcaption className="tech-subscript">TypeScript</figcaption>
+                    <img className="tech-logo" src={LogoFlask} alt="Flask"></img>
+                    <figcaption className="tech-subscript">Flask</figcaption>
                 </figure>
-            </div> */}
+                <figure className="centered">
+                    <img className="tech-logo" src={LogoRedux} alt="Redux"></img>
+                    <figcaption className="tech-subscript">Redux</figcaption>
+                </figure>
+            </div>
         </div>
     );
 }

@@ -202,6 +202,7 @@ body {
 
 .technologies-title {
     margin-top: 10em;
+    padding-bottom: 1em;
     justify-self: center;
     align-self: center;
     z-index: 2;
@@ -223,11 +224,9 @@ body {
     grid-column-end: 4;
     display: grid;
     grid-template-areas: "logo-1 logo-2 logo-3 logo-4"
-                         ".      .     .     .    ";
+                         ". logo-5 logo-5 .";
     grid-template-rows: auto auto auto auto auto auto auto;
     grid-template-columns: auto auto auto auto auto auto;
-    /* grid-template-columns: 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw; */
-    /* grid-template-columns: 7em 7em 7em 7em 7em 7em 7em 7em 7em 7em 7em 7em 7em; */
 }
 
 .tech-logo {
@@ -242,9 +241,9 @@ body {
 @media (max-width: 2100px) {
     .tech-grid {
         grid-template-areas: 
-        "logo-1 logo-1 logo-1 logo-1 logo-1 logo-1"
-        ". logo-2 logo-2 logo-3 logo-3 . "
-        " . logo-4 logo-4 logo-4 logo-4 .";
+        "logo-1 logo-1 logo-1 logo-2 logo-2 logo-2"
+        ". logo-3 logo-3 logo-4 logo-4 . "
+        ". . logo-5 logo-5 . .";
     }
 
     
@@ -262,7 +261,8 @@ body {
         ". . logo-1 logo-1 . ."
         ". . logo-2 logo-2 . . "
         ". . logo-3 logo-3 . . "
-        ". . logo-4 logo-4 . . ";
+        ". . logo-4 logo-4 . . "
+        ". . logo-5 logo-5 . . ";
     }
 
     .about {
@@ -301,13 +301,9 @@ body {
     align-items: center;
     justify-items: center;
     width: 5vw;
-    /* margin: 2vw; */
-    /* grid-area: logo-1; */
 }
 
 .figure-container {
-    /* display: flex;
-    align-items: center; */
     grid-area: logo-1;
     display: flex;
     justify-self: center;
@@ -327,6 +323,12 @@ body {
 
 .figure-container-4 {
     grid-area: logo-4;
+    display: flex;
+    justify-self: center;
+}
+
+.figure-container-5 {
+    grid-area: logo-5;
     display: flex;
     justify-self: center;
 }
