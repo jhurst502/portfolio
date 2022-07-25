@@ -9,8 +9,8 @@ import LogoHTML from '../../src/images/HTML5.png';
 import LogoCSS from '../../src/images/CSS3.png';
 import LogoPython from '../../src/images/Python.png';
 import LogoCPP from '../../src/images/CPlusPlus.png';
-import LogoPostgres from '../../src/images/PostgreSQL.png';
-import LogoMySql from '../../src/images/MySql.png';
+import LogoMySql from '../../src/image/MySql.png';
+import LogoMongo from '../../src/images/MongoDB.png';
 import LogoNode from '../../src/images/NodeJs.png';
 import LogoTypeScript from '../../src/images/Typescript.png';
 import LogoRedux from '../../src/images/Redux.png';
@@ -63,12 +63,12 @@ const Technologies = () => {
             </div>
             <div className="figure-container-4">
                 <figure className="centered">
-                    <img className="tech-logo" src={LogoPostgres} alt="PostgreSQL"></img>
-                    <figcaption className="tech-subscript">PostgreSQL</figcaption>
-                </figure>
-                <figure className="centered">
                     <img className="tech-logo" src={LogoMySql} alt="MySQL"></img>
                     <figcaption className="tech-subscript">MySQL</figcaption>
+                </figure>
+                <figure className="centered">
+                    <img className="tech-logo" src={LogoMongo} alt="MongoDB"></img>
+                    <figcaption className="tech-subscript">MongoDB</figcaption>
                 </figure>
                 <figure className="centered">
                     <img className="tech-logo" src={LogoGit} alt="Git"></img>
