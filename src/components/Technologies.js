@@ -9,7 +9,7 @@ import LogoHTML from '../../src/images/HTML5.png';
 import LogoCSS from '../../src/images/CSS3.png';
 import LogoPython from '../../src/images/Python.png';
 import LogoCPP from '../../src/images/CPlusPlus.png';
-import LogoMySql from '../../src/image/MySql.png';
+import LogoMySql from '../../src/images/MySql.png';
 import LogoMongo from '../../src/images/MongoDB.png';
 import LogoNode from '../../src/images/NodeJs.png';
 import LogoTypeScript from '../../src/images/Typescript.png';
